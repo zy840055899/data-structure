@@ -7,22 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53B8C4631C4D1BA200987483 /* Array_point_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C45B1C4D1BA200987483 /* Array_point_1.c */; };
-		53B8C4641C4D1BA200987483 /* Array_point_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C45C1C4D1BA200987483 /* Array_point_2.c */; };
-		53B8C4651C4D1BA200987483 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C45D1C4D1BA200987483 /* main.c */; };
-		53B8C4661C4D1BA200987483 /* malloc_arr.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C45E1C4D1BA200987483 /* malloc_arr.c */; };
-		53B8C4671C4D1BA200987483 /* malloc_struct.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C45F1C4D1BA200987483 /* malloc_struct.c */; };
-		53B8C4681C4D1BA200987483 /* point_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C4601C4D1BA200987483 /* point_1.c */; };
-		53B8C4691C4D1BA200987483 /* point_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C4611C4D1BA200987483 /* point_2.c */; };
-		53B8C46A1C4D1BA200987483 /* struct.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C4621C4D1BA200987483 /* struct.c */; };
-		53B8C4741C4D1BE100987483 /* Array.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C46C1C4D1BE100987483 /* Array.c */; };
-		53B8C4751C4D1BE100987483 /* FastSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C46D1C4D1BE100987483 /* FastSort.c */; };
-		53B8C4761C4D1BE100987483 /* Hanoi.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C46E1C4D1BE100987483 /* Hanoi.c */; };
-		53B8C4771C4D1BE100987483 /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C46F1C4D1BE100987483 /* List.c */; };
-		53B8C4781C4D1BE100987483 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C4701C4D1BE100987483 /* queue.c */; };
-		53B8C4791C4D1BE100987483 /* recurison.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C4711C4D1BE100987483 /* recurison.c */; };
-		53B8C47A1C4D1BE100987483 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C4721C4D1BE100987483 /* Stack.c */; };
-		53B8C47B1C4D1BE100987483 /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C4731C4D1BE100987483 /* Tree.c */; };
+		53B8C4841C4D24EF00987483 /* 07lianduilie-queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C4831C4D24EF00987483 /* 07lianduilie-queue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,7 +26,6 @@
 		53B8C4351C4D196D00987483 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B8C45B1C4D1BA200987483 /* Array_point_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Array_point_1.c; path = practise/Array_point_1.c; sourceTree = "<group>"; };
 		53B8C45C1C4D1BA200987483 /* Array_point_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Array_point_2.c; path = practise/Array_point_2.c; sourceTree = "<group>"; };
-		53B8C45D1C4D1BA200987483 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = practise/main.c; sourceTree = "<group>"; };
 		53B8C45E1C4D1BA200987483 /* malloc_arr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = malloc_arr.c; path = practise/malloc_arr.c; sourceTree = "<group>"; };
 		53B8C45F1C4D1BA200987483 /* malloc_struct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = malloc_struct.c; path = practise/malloc_struct.c; sourceTree = "<group>"; };
 		53B8C4601C4D1BA200987483 /* point_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = point_1.c; path = practise/point_1.c; sourceTree = "<group>"; };
@@ -61,6 +45,7 @@
 		53B8C47F1C4D1E2500987483 /* 03shunxuzhan_stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = 03shunxuzhan_stack.c; path = list/03shunxuzhan_stack.c; sourceTree = SOURCE_ROOT; };
 		53B8C4801C4D1E2500987483 /* 02线性表链式存储_LinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "02线性表链式存储_LinkList.c"; path = "list/02线性表链式存储_LinkList.c"; sourceTree = SOURCE_ROOT; };
 		53B8C4811C4D1E2500987483 /* 01线性表顺序存储_List.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "01线性表顺序存储_List.c"; path = "list/01线性表顺序存储_List.c"; sourceTree = SOURCE_ROOT; };
+		53B8C4831C4D24EF00987483 /* 07lianduilie-queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "07lianduilie-queue.c"; path = "test.xcodeproj/../list/07lianduilie-queue.c"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +80,7 @@
 		53B8C4371C4D196D00987483 /* list */ = {
 			isa = PBXGroup;
 			children = (
+				53B8C4831C4D24EF00987483 /* 07lianduilie-queue.c */,
 				53B8C47C1C4D1E2500987483 /* 06顺序队列_queue.c */,
 				53B8C47D1C4D1E2500987483 /* 05Fibonacci_stack.c */,
 				53B8C47E1C4D1E2500987483 /* 04lianzhan_stack.c */,
@@ -111,7 +97,6 @@
 			children = (
 				53B8C45B1C4D1BA200987483 /* Array_point_1.c */,
 				53B8C45C1C4D1BA200987483 /* Array_point_2.c */,
-				53B8C45D1C4D1BA200987483 /* main.c */,
 				53B8C45E1C4D1BA200987483 /* malloc_arr.c */,
 				53B8C45F1C4D1BA200987483 /* malloc_struct.c */,
 				53B8C4601C4D1BA200987483 /* point_1.c */,
@@ -192,22 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53B8C4771C4D1BE100987483 /* List.c in Sources */,
-				53B8C4651C4D1BA200987483 /* main.c in Sources */,
-				53B8C4681C4D1BA200987483 /* point_1.c in Sources */,
-				53B8C4781C4D1BE100987483 /* queue.c in Sources */,
-				53B8C4751C4D1BE100987483 /* FastSort.c in Sources */,
-				53B8C4761C4D1BE100987483 /* Hanoi.c in Sources */,
-				53B8C4661C4D1BA200987483 /* malloc_arr.c in Sources */,
-				53B8C46A1C4D1BA200987483 /* struct.c in Sources */,
-				53B8C4791C4D1BE100987483 /* recurison.c in Sources */,
-				53B8C4631C4D1BA200987483 /* Array_point_1.c in Sources */,
-				53B8C4641C4D1BA200987483 /* Array_point_2.c in Sources */,
-				53B8C47B1C4D1BE100987483 /* Tree.c in Sources */,
-				53B8C4691C4D1BA200987483 /* point_2.c in Sources */,
-				53B8C4741C4D1BE100987483 /* Array.c in Sources */,
-				53B8C4671C4D1BA200987483 /* malloc_struct.c in Sources */,
-				53B8C47A1C4D1BE100987483 /* Stack.c in Sources */,
+				53B8C4841C4D24EF00987483 /* 07lianduilie-queue.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

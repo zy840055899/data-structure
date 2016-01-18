@@ -48,7 +48,7 @@ int getQueueLength(SqQueue queue){
     return (queue.rear - queue.front + MAXSIZE) % MAXSIZE;
 }
 
-//我自己写的queue遍历(笨方法，大话数据结构上得写法貌似不对)
+//我自己写的queue遍历(笨方法，大话数据结构上得写法不对，高级方法在下面)
 void traverseQueue(SqQueue queue){
     
     printf("front:%d, rear:%d size:%d\n", queue.front, queue.rear, getQueueLength(queue));
@@ -69,6 +69,16 @@ void traverseQueue(SqQueue queue){
         for (int i=queue.front; i<queue.rear; i++) {
             printf("%d ", queue.data[i]);
         }
+    }
+    printf("\n");
+}
+
+//第二种遍历（高级方法）
+void traverseQueue2(SqQueue queue){
+    int i = queue.front;
+    while (i != queue.rear) {
+        printf("%d ", queue.data[i]);
+        i = (i+1) % MAXSIZE;
     }
     printf("\n");
 }
@@ -118,6 +128,7 @@ int main(){
     deQueue(&queue, &val);
     printf("%d出队\n", val);
     traverseQueue(queue);
+    traverseQueue2(queue);
     
     //清空队列
     clearQueue(&queue);
