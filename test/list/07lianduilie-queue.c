@@ -128,11 +128,11 @@ int main(){
 
     enQueue(&queue, 999);           //本行不报错，队列存在长度为空
     printf("队列的长度为:%d\n", getQueueLength(queue));
-    //输出123123 12312312（地址）
+    //输出123123 12312312 080808（地址）
     printf("front:%u rear:%u front->pNext:%u \n", queue.front, queue.rear, queue.front->pNext);
 
     destroyQueue(&queue);
-    printf("front:%u rear:%u \n", queue.front, queue.rear);     // 0 0
+    printf("front:%u rear:%u \n", queue.front, queue.rear);     // 0 0 不能输出queue.front->pNext不存在，报错
 //    enQueue(&queue, 990);           //本行报错，队列已不存在，入队失败
 }
 
