@@ -7,17 +7,17 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>C54BC817-9CE5-4124-8415-A0CC4AB4D1EC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>test</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>918EEB562C7F0856921726A8C595E8E9D8A8242C</key>
+		<key>62B402F46AB29D0CD2D3D5D872EDBB24A023B3C6</key>
 		<string>github.com:zy840055899/data-structure.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>test/test.xcodeproj/project.xcworkspace</string>
+	<string>test/test.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>918EEB562C7F0856921726A8C595E8E9D8A8242C</key>
+		<key>62B402F46AB29D0CD2D3D5D872EDBB24A023B3C6</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>918EEB562C7F0856921726A8C595E8E9D8A8242C</string>
+	<string>62B402F46AB29D0CD2D3D5D872EDBB24A023B3C6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>918EEB562C7F0856921726A8C595E8E9D8A8242C</string>
+			<string>62B402F46AB29D0CD2D3D5D872EDBB24A023B3C6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>xcodeProjects</string>
 		</dict>
