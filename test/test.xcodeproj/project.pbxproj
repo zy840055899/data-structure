@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53B8C4841C4D24EF00987483 /* 07lianduilie-queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C4831C4D24EF00987483 /* 07lianduilie-queue.c */; };
+		5371D1791C50693B00ECE17F /* 07lianduilie-queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 53B8C4831C4D24EF00987483 /* 07lianduilie-queue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -177,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53B8C4841C4D24EF00987483 /* 07lianduilie-queue.c in Sources */,
+				5371D1791C50693B00ECE17F /* 07lianduilie-queue.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +294,7 @@
 				53B8C43E1C4D196D00987483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

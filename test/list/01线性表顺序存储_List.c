@@ -14,10 +14,6 @@ typedef struct{
     int length;         /*线性表当前长度*/
 }SqList;
 
-void visit(int a){
-    printf("%d ",a);
-}
-
 /*初始化线性表*/
 void initList(SqList *L){
     L->length = 0;
@@ -48,7 +44,7 @@ bool listInsert(SqList *L, int i, int e){
 void listTraverse(SqList *L){
     int i;
     for (i=0; i<L->length; i++) {
-        visit(L->data[i]);
+        printf("%d ", L->data[i]);
     }
     printf("\n");
 }
@@ -114,7 +110,6 @@ void unionL(SqList *L, SqList *Lb){
 
 int main(){
     SqList L;
-    
     // 初始化链表
     initList(&L);
     printf("初始化L后，L.length=%d\n", L.length);        // 0
