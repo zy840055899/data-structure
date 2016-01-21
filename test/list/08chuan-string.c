@@ -7,8 +7,8 @@
 //
 
 #include <stdio.h>
-#include <stdlib.h>
-#include "string.h"
+#include <string.h>
+
 #define MAXSIZE 40
 
 typedef char String[MAXSIZE + 1];     //0号单元存放串的长度
