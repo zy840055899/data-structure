@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C54BC817-9CE5-4124-8415-A0CC4AB4D1EC</string>
+	<string>C13DD71E-5F83-46EA-8E83-9431FDA1A460</string>
 	<key>IDESourceControlProjectName</key>
-	<string>test</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>62B402F46AB29D0CD2D3D5D872EDBB24A023B3C6</key>
 		<string>github.com:zy840055899/data-structure.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>test/test.xcodeproj</string>
+	<string>test2/test2.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>62B402F46AB29D0CD2D3D5D872EDBB24A023B3C6</key>
